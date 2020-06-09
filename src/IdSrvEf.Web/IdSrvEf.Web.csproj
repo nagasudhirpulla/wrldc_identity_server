@@ -27,4 +27,9 @@
     <ProjectReference Include="..\IdSrvEf.Infra\IdSrvEf.Infra.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="Areas\" />
+  </ItemGroup>
+
 </Project>

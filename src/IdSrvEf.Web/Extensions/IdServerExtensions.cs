@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using IdentityServer4.Stores;
+using IdSrvEf.Web.Models.Account;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IdSrvEf.Web.Extensions

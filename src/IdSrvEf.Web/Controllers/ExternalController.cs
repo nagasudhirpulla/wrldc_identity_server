@@ -53,7 +53,7 @@ namespace IdSrvEf.Web.Controllers
         /// initiate roundtrip to external authentication provider
         /// </summary>
         [HttpGet]
-        public async Task<IActionResult> Challenge(string provider, string returnUrl)
+        public IActionResult Challenge(string provider, string returnUrl)
         {
             if (string.IsNullOrEmpty(returnUrl)) returnUrl = "~/";
 
